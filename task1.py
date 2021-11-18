@@ -11,7 +11,7 @@
 Результатом сложения должна быть новая матрица."""
 
 
-class Matrix:
+class Matrix: 
     def __init__(self, list_of_lists):
         rows = len(list_of_lists)
         columns = len(list_of_lists[0])
